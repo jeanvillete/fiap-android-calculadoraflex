@@ -8,20 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- FullScreen theme. -->
-    <style name="FullScreen" parent="AppTheme">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
-    </style>
-
-    <style name="custom_button">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#FFF</item>
-        <item name="android:background">@drawable/custom_button</item>
-    </style>
-
     <style name="container_master">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -54,6 +40,7 @@
         <item name="android:layout_marginRight">16dp</item>
     </style>
 
+
     <style name="divider" parent="margin_default_row">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
@@ -78,6 +65,7 @@
     <style name="label_spent_footer">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+
         <item name="android:layout_weight">0.5</item>
         <item name="android:gravity">center</item>
     </style>
@@ -89,4 +77,19 @@
         <item name="android:gravity">center</item>
         <item name="android:layout_weight">0.5</item>
     </style>
+
+    <!-- FullScreen theme. -->
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="custom_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:background">@drawable/custom_button</item>
+    </style>
+
 </resources>
